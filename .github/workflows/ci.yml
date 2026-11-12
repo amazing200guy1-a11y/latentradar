@@ -1,0 +1,28 @@
+name: LatentRadar CI
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  test-suite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run LatentRadar Formal Test Suite
+        run: |
+          python test_latentradar.py
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build TypeScript module
+        run: |
+          npm install --no-package-lock
+          npx tsc src/latentradar.ts --declaration --outDir dist

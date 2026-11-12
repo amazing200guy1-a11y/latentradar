@@ -1,0 +1,17 @@
+{
+  "name": "latentradar",
+  "version": "1.0.0",
+  "description": "High-dimensional residual activation stream jailbreak detection sentry for frontier LLMs",
+  "main": "dist/latentradar.js",
+  "types": "dist/latentradar.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/latentradar.js"
+  },
+  "keywords": ["ai-safety", "jailbreak-detection", "llm-guard", "residual-stream"],
+  "author": "Usman Bamidele",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
