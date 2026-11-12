@@ -1,5 +1,5 @@
 # ◈ SUBMISSION DOSSIER — LatentRadar
-### SLAY HACKS 2024 · High-Dimensional Residual Activation Jailbreak Detector
+### SLAY HACKS 2026 · High-Dimensional Residual Activation Jailbreak Detector
 
 ---
 

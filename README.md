@@ -136,4 +136,4 @@ Open `index.html` in any modern browser for a live interactive dashboard featuri
 
 ## ✦ License
 
-MIT © 2024 — Usman Bamidele (amazing200guy1-a11y)
+MIT © 2026 — Usman Bamidele (amazing200guy1-a11y)
